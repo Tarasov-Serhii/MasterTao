@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $bg-body;
+    color:$color;
+    font-family: $font-primary;
+    font-weight: 400px;
+}
+
+a {
+ color:$primary-color;
+ text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+li::marker {
+    color:$primary-color;
+}
+
+
+.btn.btn-secondary{
+    background-color: transparent;
+}
+
+.margin-Typography{
+    margin-right: 100px;
+}

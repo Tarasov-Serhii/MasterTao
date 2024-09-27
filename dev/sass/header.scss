@@ -7,22 +7,22 @@
 }
 
 .nav {
-  --bs-nav-link-color: $primary-color;
-  --bs-nav-link-hover-color:$secondary-color
+  --bs-nav-link-color: $color;
+  --bs-nav-link-hover-color: $color
   gap:45px;
   margin-right: 98px;
 }
 
 .nav-item {
   font-size: 16px;
-  color: $primary-color;
+  color: $color;
   line-height: 23.36px;
   text-align: left;
 
 }
 
 .nav-item:hover{
-  color:$secondary-color
+  text-decoration-line: underline;
 }
 
 
@@ -37,16 +37,22 @@
     font-weight: 600;
     padding: 14px 27px;
     border-radius: 90px;
-    background-color: #E58D35;
-    color: #FFFFFF;
+    background-color: $primary-color;
+    color: $color;
     cursor: pointer;
-    border: 0px;
+    border: 1px solid $primary-color;
     font-size: 15px;
     line-height: 21.9px;
 }
 
 .btn:hover {
-  background-color: #cc7926;
+  background-color: $bg-body;
+  border-color: $primary-color;
+}
+
+.btn:active{
+  background-color: $bg-body;
+  border-color: $primary-color;
 }
 
 
