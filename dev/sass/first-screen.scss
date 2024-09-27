@@ -1,3 +1,15 @@
-h1 {
-    color: blue;
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: $bg-color;
+    font-family: $font-primary;
+    font-weight: 400px;
+}
+
+h1{
+    color:$primary-color;
+}
+b{
+    color:$primary-color;
 }
