@@ -1,15 +1,67 @@
-.header {
-  display: flex;
-  justify-content: center;
+header{
+  max-width: 100%;
+  width: 1140px;
   margin: 25px auto 39px;
-  max-width: 1140px;
-  height: 50px;
+}
+.nav-brand{
+margin-right: 98px;
 }
 
-.nav {
+.navbar-toggler {
+  border: 0px;
+  color: $bg-body;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-toggler-icon {
+  width: 28px;
+  position: relative;
+  background: $color;
+  height: 2px;
+  margin: -23px 0 0 0;
+}
+
+.navbar-toggler-icon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.navbar-toggler-icon:after{
+content: "";
+  position: absolute;
+  left: 0;
+  top:20px;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+
+[aria-expanded=true] .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+[aria-expanded=true] .navbar-toggler-icon:before {
+  transform: rotate(-45deg);
+}
+
+[aria-expanded=true] .navbar-toggler-icon:after {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.navbar-nav {
   --bs-nav-link-color: $color;
-  --bs-nav-link-hover-color: $color
-  gap:45px;
+  --bs-nav-link-hover-color: $color;
+  gap: 25px;
   margin-right: 98px;
 }
 
@@ -22,9 +74,9 @@
 }
 
 .nav-item:hover{
-  text-decoration-line: underline;
+  color:$primary-color;
+  text-decoration-line: none;
 }
-
 
 .nav-brand{
   padding-top: 0px;
@@ -54,6 +106,9 @@
   background-color: $bg-body;
   border-color: $primary-color;
 }
+
+
+
 
 
 

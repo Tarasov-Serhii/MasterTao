@@ -14,14 +14,18 @@ body {
     font-weight: 400px;
 }
 
-a {
+.typo-a{
  color:$primary-color;
  text-decoration: none;
 }
 
-a:hover{
+.typo-a:hover{
 text-decoration: underline;
 }
+.nav-item:hover{
+    color:$primary-color;
+    text-decoration-line: none;
+  }
 
 li::marker {
     color:$primary-color;
@@ -32,6 +36,3 @@ li::marker {
     background-color: transparent;
 }
 
-.margin-Typography{
-    margin-right: 100px;
-}
