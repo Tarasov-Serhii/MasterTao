@@ -1,3 +1,33 @@
 @media screen and (max-width: 575px) {
+    .banner .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 700px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
     
+    
+    .banner-title{  
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+        
+    }
+
+.banner-description{
+    text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    
+}
+
+.banner .btn {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26.9px;
+}
+
 }

@@ -1,11 +1,8 @@
 header{
   max-width: 100%;
-  width: 1140px;
-  margin: 25px auto 39px;
+  margin: 17px auto 39px;
 }
-.nav-brand{
-margin-right: 98px;
-}
+
 
 .navbar-toggler {
   border: 0px;
@@ -61,8 +58,7 @@ content: "";
 .navbar-nav {
   --bs-nav-link-color: $color;
   --bs-nav-link-hover-color: $color;
-  gap: 25px;
-  margin-right: 98px;
+    margin-right: 60px
 }
 
 .nav-item {
@@ -70,6 +66,7 @@ content: "";
   color: $color;
   line-height: 23.36px;
   text-align: left;
+  padding-right: 29px;
 
 }
 
@@ -81,13 +78,12 @@ content: "";
 .nav-brand{
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 16px;
-  margin-right: 98px;
+  margin-right: 90px;
 }
 
 .btn {
     font-weight: 600;
-    padding: 14px 27px;
+    padding: 13px 26px;
     border-radius: 90px;
     background-color: $primary-color;
     color: $color;

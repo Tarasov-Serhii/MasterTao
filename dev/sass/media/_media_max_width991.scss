@@ -1,4 +1,10 @@
 @media screen and (max-width: 991px) {
+
+    header {
+        max-width: 100%;
+        margin: 17px auto 15px;
+    }
+
     .navbar-collapse {
      margin: 0 -24px;
      text-align: center;
@@ -10,11 +16,54 @@
     .nav-item {
         text-align: center;
         font-size: 24px;
+        padding-right: 0px;
     }
 
     .navbar-nav{
-        padding-top: 37px;
+     padding-top: 48px;
+     margin-right:0px;
     }
+
+    .nav-brand img {
+        max-width: 126px;
+    }
+
+    .navbar-collapse .btn {
+        margin-top: 21px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        padding: 21px 40px;
+        width: 100%;
+        max-width: 295px;
+    }
+
+    .nav-item .nav-link {
+        padding: 5px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 222%;
+    }
+
+    .swiper {
+        margin: 0px;
+        border-radius:0px;
+    }
+
+
+    .swiper-button-prev, .swiper-button-next{
+        color:transparent;
+    }
+       
+    .swiper-button-prev:hover, .swiper-button-next:hover{
+        color:transparent;
+    }
+    .banner .container{
+    margin-left: 0px;
+    }
+
+
 }
+
+
 
 
