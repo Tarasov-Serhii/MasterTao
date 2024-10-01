@@ -1,7 +1,13 @@
-.swiper {
+.container-xxl{
+    max-width: 1820px;
+    height: 700px;
     width: 100%;
+}
+
+.swiper {
     border-radius: 20px;
-    margin: 0 10px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -9,7 +15,8 @@
  max-width: 463px;
  font-weight: 700;
  font-size: 56px;
- line-height: 56px;
+ height: 142px;
+ line-height: 70px;
  text-transform: uppercase;
  margin-bottom: 8px;
 }
@@ -33,14 +40,16 @@
 
 .swiper-button-prev{
  width: 100%;
- max-width: 44px;
+ max-width: 46px;
+ height: 46px;
  color:$color;
  margin-left: 149px;
 }
 
 .swiper-button-next{
  width: 100%;
- max-width: 44px;
+ max-width: 46px;
+ height: 46px;
  color:$color;
  margin-right: 148px;
 }
@@ -58,7 +67,7 @@
 }
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 26px 43px;
+    margin: 0 26px 28px;
 }
 
 
@@ -68,10 +77,14 @@
 
 .banner .btn {
     width: 293px;
-    height: 60px;
+    height: 68px;
     padding: 0px;
+    margin-bottom: 62px;
+    font-size: 16px;
+    line-height: 23px;
 }
 
 .btn>img{
+    margin-right: -12px;
     margin-left: 49px;
 }

@@ -1,40 +1,39 @@
-@media screen and (max-width: 390px){
+@media screen and (max-width: 485gulppx){
     .swiper {
         margin: 0px;
         border-radius:0px;
     }
+
+
     .banner .container{
-        min-height: 650px;
-        margin-left: 0px;
         justify-content: unset;
     }
 
     .banner-title{
         text-align: center;
         font-size: 32px;
-        line-height: 42px;
+        line-height: 40px;
         padding-left: 42px;
         margin-right: 23px;
-        padding-top: 185px;
+        padding-top: 190px;
     }
 
 .banner-description{
     text-align: center;
     padding-left:55px ;
     margin-right: 37px;
-    padding-top: 2px;
-    max-width: 350px;
+    padding-top: 81px;
+    max-width: 335px;
     font-size: 16px;
-    line-height: 21px;
-    margin-bottom: 19px;
+    line-height: 22px;
+    margin-bottom: 18px;
 }
 
 .banner .btn {
     width:295px;
-    margin-left: 37px;
-    padding: 19px 19px;
+    margin-left: 18px;
     font-size: 16px;
-    line-height: 26.9px;
+    line-height: 23px;
 }
 
 .banner .btn>img{
@@ -43,6 +42,6 @@
 
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 26px 29px;
+    margin: 0 26px 26px;
 }
 }
