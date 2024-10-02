@@ -1,0 +1,134 @@
+.titles{
+font-size: 36px;
+font-weight: 700;
+line-height: 44.82px;
+text-transform: uppercase;
+margin-bottom: 60px;
+}
+
+.line-1{
+    margin-top:98px;
+    position: relative;
+    height: 90px;
+    text-align: left; 
+    max-width: 626px; 
+}
+
+.line-1::after {
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $secondary-color;
+    display: inline-block;
+    margin: 0 20px 10px
+}
+
+.line-2{ 
+    text-align: center;
+    position: relative;
+}
+
+.line-2::before {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $primary-color;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -19px;
+}
+
+.line-3{ 
+    text-align: center;
+    position: relative;
+}
+
+.line-3::before {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $secondary-color;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -19px;
+}
+
+.line-4{ 
+    text-align: center;
+    position: relative;
+}
+
+.line-4::before {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $primary-color;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -19px;
+}
+
+
+.line-5{
+    position: relative;
+    text-align: left; 
+}
+
+.line-5::after {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $secondary-color;
+    display: inline-block;
+    left: 0;
+    bottom: -19px;
+}
+
+
+.line-6{ 
+    text-align: center;
+    position: relative;
+}
+
+.line-6::before {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $secondary-color;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -19px;
+}
+
+
+.line-7{ 
+    text-align: center;
+    position: relative;
+}
+
+.line-7::before {
+    position: absolute;
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $primary-color;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -19px;
+}
+
+    
+
+
+
+
