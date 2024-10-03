@@ -5,7 +5,25 @@
 
     header {
         max-width: 100%;
-        margin: 17px auto 15px;
+        margin: 17px auto 7px;
+    }
+
+
+    .navbar{
+        --bs-navbar-padding-y: 0px;
+    }
+
+    .nav-brand{
+        margin-right: 60px;
+        margin-left: 8px;
+        padding-bottom: 16px;
+    }
+
+
+
+    .navbar-toggler {
+        padding-bottom:16px;
+        padding-left: 5px;
     }
 
     .navbar-collapse {
@@ -23,7 +41,7 @@
     }
 
     .navbar-nav{
-     padding-top: 48px;
+     padding-top: 32px;
      margin-right:0px;
     }
 
@@ -44,7 +62,7 @@
         padding: 5px;
         font-weight: 400;
         font-size: 24px;
-        line-height: 222%;
+        line-height: 223%;
     }
 
 
