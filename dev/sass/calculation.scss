@@ -1,0 +1,158 @@
+.calculation {
+    margin: 95px auto 0;
+    max-width: 1182px;
+    padding: 0 12px;
+    width: 100%;
+}
+
+
+.line-1{
+    line-height: 44px;
+    margin-top:49px;
+    margin-bottom: 54px;
+    position: relative;
+    height: 90px;
+    text-align: left; 
+    max-width: 626px; 
+}
+
+.line-1::after {
+    content: "";
+    width: 85px;
+    height: 2px;
+    background: $secondary-color;
+    display: inline-block;
+    margin: 0 20px 10px
+}
+
+.calculation-row {
+    display: flex;
+}
+
+.calculation-form {
+    margin-right: -50px;
+    max-width: 626px;
+    width: 100%;
+    max-height: 597px;
+    border-radius: 20px;
+    background-color:$bg-section;
+    padding: 50px 50px 61px;
+    box-shadow: 5px 15px 40px 0px rgb(2 5 18 / 32%);;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+}
+
+.form-col {
+    width: 100%;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+}
+
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 126%;
+}
+
+input {
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 126%;
+    color: $bg-body;
+    border:none;
+}
+
+input::placeholder{
+    font-weight: 400;
+    color: #CBCBCB;
+}
+
+
+input:focus-visible{
+    outline: 0;
+}
+
+input:hover {
+    box-shadow: 0 0 1px 1px $primary-color;
+}
+
+input:active, input:focus {
+    box-shadow: 0 0 1px 1px $secondary-color;
+}
+
+.check-box {
+    position: relative;
+    margin-bottom: -8px;
+    margin-top: 18px;
+    margin-left: -0;
+}
+
+[type=checkbox], [type=file] {
+    display: none;
+}
+
+input[type=checkbox] + label {
+    padding-left: 33px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 126%;
+    cursor: pointer;
+}
+
+
+input[type=checkbox]:checked + label::before {
+    background: url(assets/img/check.svg) no-repeat center #fff;
+}
+
+
+
+input[type=checkbox] + label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #282b38;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+}
+
+
+input[type=file] + label {
+    cursor: pointer;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    margin-top: 46px;
+    background-image: url(assets/img/rama.svg);
+    background-repeat: no-repeat;
+    background-size: 520px;
+    border-radius: 10px;
+    background-position: center;
+}
+
+input[type=file] + label:hover {
+    background-image: url(assets/img/ramaGreen.svg);
+}
+
+
+.image-decor {
+    max-width: 560px;
+    width: 100%;
+    transform: translate(22px, -182px);}
+
