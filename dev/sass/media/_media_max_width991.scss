@@ -138,6 +138,63 @@
             bottom:-22px
         }
 
+        .image-decor {
+           display:none;
+        }
+
+        .calculation-row {
+            justify-content: center;
+        }
+
+        .calculation-form{
+            margin-right: 0px ;
+            max-width: 375px;
+            max-height: 846px;
+            padding: 54px 29px 45px
+        }
+
+        .form-row{
+            display: block;
+        }
+
+        .form-input{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 21px;
+
+        }
+
+        .check-box {
+            margin-bottom: 12px;
+            margin-top: 18px;
+            margin-left: 0px;
+        }
+
+        input[type=checkbox] + label::before {
+            top:-1px;
+        }
+
+
+        input[type=file] + label {
+            margin-top: 33px;
+        }
+
+
+        .calculation-form .btn {
+            width: 100%;
+            padding: 19px 34px;
+        }
+
+        .calculation-form .btn>img{
+            margin-right: -22px;
+            margin-left: 79px;
+        }
+
+
+
+
+
+
 }
 
 
