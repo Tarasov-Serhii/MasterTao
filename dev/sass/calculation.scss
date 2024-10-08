@@ -148,7 +148,10 @@ input[type=file] + label:hover {
     background-image: url(assets/img/ramaGreen.svg);
 }
 
-
+ .calculation .btn{
+    margin-top:-4px;
+    padding: 18px 35px;
+ }
 .image-decor {
     max-width: 560px;
     width: 100%;
