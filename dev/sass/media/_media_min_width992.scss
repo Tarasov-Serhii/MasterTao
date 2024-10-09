@@ -1,0 +1,41 @@
+@media screen and (min-width: 1157px) {
+    .advantages .swiper-pagination{
+        display: none;
+    }
+
+    .advantages .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .advantages {
+        padding: 92px 71px 76px 0px;
+    }
+
+    .adv-bg::before{
+        content: "";
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 0;
+        position: absolute;
+        display: flex;
+        width: calc(100% - 88px);
+        max-width: 1820px;
+        height: 100%;
+        background-color: #363A4D;
+        border-radius: 20px;
+        z-index: -1;
+    }
+
+    
+    .advantages .advantage {
+        max-width: 263px;
+        min-height: 201px;
+        margin: 11px auto;
+        text-align: center;
+    }
+
+
+
+
+}

@@ -1,9 +1,9 @@
-const swiper = new Swiper('.swiper', {
+const swiperBanner = new Swiper('.swiper-banner', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
     
-    autolay: {
+    autoplay: {
       delay: 6000,
     },
   
@@ -22,6 +22,19 @@ const swiper = new Swiper('.swiper', {
     // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
+    },
+  });
+
+
+  const swiperAdv = new Swiper('.swiper-adv', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    
+    
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
     },
   });
 
