@@ -38,6 +38,40 @@ const swiperBanner = new Swiper('.swiper-banner', {
     },
   });
 
+  const swiperDelivery = new Swiper('.swiper-del', {
+    direction: 'horizontal',
+    loop: true,
+    
+ 
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+      
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-unique',
+          prevEl: '.swiper-button-prev-unique',         
+        },
+
+        pagination: {
+        enabled: false,
+        el: '.swiper-pagination',
+      }
+      } 
+    }
+  });
+
   const cat = {
     name: "Klaw",
     age: 1,
