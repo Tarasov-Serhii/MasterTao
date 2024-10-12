@@ -64,33 +64,39 @@
 .del-nav {
     position: absolute;
     bottom: 242px;
-    max-width: 1401px;
+    max-width: 1323px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 
- .del-nav .swiper-button-prev {
-    width: 100%;
+.del-nav .swiper-button-prev {
     max-width: 46px;
     height: 46px;
-    color: #FFFFFF;
-    margin-left: 59px;
+    color: #6C6F7F;
+    margin-left: 0px;
 }
 
 
 .del-nav .swiper-button-next {
-    width: 100%;
     max-width: 46px;
     height: 46px;
-    color: $color;
+    color: #6C6F7F;
     margin-right: 0px;
 }
 
 
 .del-nav .swiper-button-next:hover, .del-nav .swiper-button-prev:hover {
-    color: $secondary-color
+ color: $secondary-color
 }
+
+.delivery b{
+    font-size: 49px
+}
+
+
 
 

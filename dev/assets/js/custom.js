@@ -39,22 +39,51 @@ const swiperBanner = new Swiper('.swiper-banner', {
   });
 
   const swiperDelivery = new Swiper('.swiper-del', {
-    direction: 'horizontal',
+    speed: 400,
     loop: true,
-    
- 
+    simulateTouch: true,
+    slidesPerView: 1,
+
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
+      enabled: true,
     },
-  
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      enabled: false,
+      nextEl: '.swiper-button-next-unique',
+      prevEl: '.swiper-button-prev-unique',
     },
 
     breakpoints: {
-      
-      1200: {
+      768: {
+        slidesPerView: 1,
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-unique',
+          prevEl: '.swiper-button-prev-unique',         
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          enabled: true,
+        },
+      },
+      861: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-unique',
+          prevEl: '.swiper-button-prev-unique',         
+        },
+        
+        pagination: {
+        enabled: false,
+        el: '.swiper-pagination',
+      },
+      },
+      1252: {
         slidesPerView: 3,
         spaceBetween: 30,
 
@@ -69,45 +98,6 @@ const swiperBanner = new Swiper('.swiper-banner', {
         el: '.swiper-pagination',
       }
       } 
-    }
-  });
-
-  const cat = {
-    name: "Klaw",
-    age: 1,
-    color: "white",
-    parents: {
-      mother: 'Snow',
-      father: 'Brave'
-    }
-  };
-  
-  const  fox = {
-    name: "Tale",
-    age: 2,
-    color: "orange",
-    parents: {
-      mother: 'Ginger',
-      father: 'Wind'
-    }
-  };
-  
-  const snake = {
-    name: "Tooth",
-    age: 3,
-    color: "green",
-    parents: {
-      mother: 'Long',
-      father: 'Dread'
-    }
-  };
-  
-  const logBeast = function(beast) {
-    console.log( beast.name, beast.color, beast.age, beast.parents);
-  }
-
-  logBeast(cat);
-  logBeast(fox);
-  logBeast(snake)
-
+    }      
+  }); 
   

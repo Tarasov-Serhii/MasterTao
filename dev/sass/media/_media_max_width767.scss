@@ -1,1 +1,40 @@
+@media screen and (max-width: 767px) {
+    .delivery{
+        margin-top: -16px;
+    }
 
+    .delivery .img-box{
+        margin: 0 -20px 45px;
+    }
+
+
+    .delivery .btn-primary {
+        padding: 13px 9px 12px 10px;
+        margin-left:23px;
+    }
+
+    .delivery .btn-secondary {
+        margin-left:12px;
+    }
+
+
+    .del-slide {
+        padding: 0px;
+    }
+
+    .del-price {
+     margin-bottom: 23px;
+    }
+
+    .swiper-del{
+        width: 335px;
+        padding-bottom: 81px;
+    }
+    .del-nav {
+        display:none
+    }
+
+    .btn-row {
+        margin-bottom:18px;
+    }
+}
