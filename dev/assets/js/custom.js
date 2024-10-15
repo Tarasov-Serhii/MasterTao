@@ -100,4 +100,67 @@ const swiperBanner = new Swiper('.swiper-banner', {
       } 
     }      
   }); 
+
+  const swiperServices = new Swiper('.serv-swiper', {
+    speed: 400,
+    loop: true,
+    simulateTouch: true,
+    slidesPerView: 1,
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      enabled: true,
+    },
+    navigation: {
+      enabled: false,
+      nextEl: '.swiper-button-next-serv',
+      prevEl: '.swiper-button-prev-serv',
+    },
+
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-serv',
+          prevEl: '.swiper-button-prev-serv',         
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          enabled: true,
+        },
+      },
+      861: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-serv',
+          prevEl: '.swiper-button-prev-serv',         
+        },
+        
+        pagination: {
+        enabled: false,
+        el: '.swiper-pagination',
+      },
+      },
+      1252: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+
+        navigation: {
+          enabled: true, 
+          nextEl: '.swiper-button-next-serv',
+          prevEl: '.swiper-button-prev-serv',         
+        },
+
+        pagination: {
+        enabled: false,
+        el: '.swiper-pagination',
+      }
+      } 
+    }      
+  }); 
   
