@@ -201,10 +201,34 @@
         }
 
 
+        .services{
+            padding: 0;
+        }
+
+        .line-4 {  
+          margin-top: 33px;
+          margin-bottom: 115px;
+          bottom: -54px
+        }
+
+        .serv-bg::before {
+            width: 100%;
+            border-radius: 0px;
+        }
+
+        .serv-title {
+            margin-left:30px;
+        }
+
+        .serv-text {
+            margin-left:28px;
+        }
 
 
-
-
+        .services .btn-row{
+            margin-left: 18px;
+            margin-bottom: 26px;
+        }
 
 }
 

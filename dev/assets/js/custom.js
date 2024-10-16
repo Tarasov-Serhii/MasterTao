@@ -27,15 +27,29 @@ const swiperBanner = new Swiper('.swiper-banner', {
 
 
   const swiperAdv = new Swiper('.swiper-adv', {
-    // Optional parameters
-    direction: 'horizontal',
     loop: true,
+    simulateTouch: true,
+    slidesPerView: 1,
     
-    
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
+      enabled: true,
     },
+
+    breakpoints:{
+      992:{
+        spaceBetween: 0,
+        loop: false,
+        slidesPerGroup: 8,
+        simulateTouch: false,
+        pagination: {
+          enabled: false,
+          el: '.swiper-pagination',
+        }
+      }
+    }
+ 
   });
 
   const swiperDelivery = new Swiper('.swiper-del', {
