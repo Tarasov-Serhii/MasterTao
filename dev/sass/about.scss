@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.line-5{
+    margin-top: 143px;
+}
+
+.about-text {
+    box-sizing: content-box;
+    min-width: 565px;
+    width: 565px;
+    padding: 9px 0px 0 0px;
+    font-size: 18px;
+    line-height: 30.6px;
+}
+
+.about-picture {
+    margin: -160px 20px auto 25px;
+    width: 100%;
+    height: auto;
+    display: block;
+}

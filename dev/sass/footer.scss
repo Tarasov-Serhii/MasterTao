@@ -1,8 +1,79 @@
 footer{
-    height: 100px;
     background: $bg-body;
     margin-top: auto;
     color:$color
 }
+
+
+
+.footer-row {
+justify-content: start;
+margin: 101px 0px 0;
+display: flex;
+padding: 39px 0;
+border-top: 2px solid $primary-color;
+}
+
+.footer .contact-info {
+    margin-right: 106px;
+}
+
+.footer-logo {
+    margin: 0 0 29px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-address {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+}
+
+
+.footer-socials {
+    margin: 0;
+}
+
+
+.site-map {
+    display: flex;
+    flex: 3;
+    gap: 30px;
+}
+
+
+.site-map-title {
+    margin-bottom: 12px;
+    margin-top: -4px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.2px;
+    text-align: left;
+}
+
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.map-link{
+    color:  #85899C;
+    text-decoration: underline;
+}
+
+.site-map-list > * {
+    margin-bottom: 8px;
+}
+
 
  
